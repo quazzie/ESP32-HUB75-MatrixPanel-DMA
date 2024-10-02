@@ -1,3 +1,5 @@
+using namespace esphome
+
 #ifndef _ESP32_RGB_64_32_MATRIX_PANEL_I2S_DMA
 #define _ESP32_RGB_64_32_MATRIX_PANEL_I2S_DMA
 /***************************************************************************************/
