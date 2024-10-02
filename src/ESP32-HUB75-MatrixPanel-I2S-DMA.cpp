@@ -365,7 +365,7 @@ void IRAM_ATTR MatrixPanel_I2S_DMA::updateMatrixDMABuffer(uint16_t x_coord, uint
    * so we have to check for this and check the correct position of the MATRIX_DATA_STORAGE_TYPE
    * data.
    */
-  x_coord = ESP32_TX_FIFO_POSITION_ADJUST(x_coord) + 1;
+  x_coord = ESP32_TX_FIFO_POSITION_ADJUST(x_coord) ;
 
   uint16_t _colourbitclear = BITMASK_RGB1_CLEAR, _colourbitoffset = 0;
 
